@@ -1,0 +1,173 @@
+#form-container{
+    align-self: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-title{
+    letter-spacing: 15px;
+    font-size: 40px;
+    color: gray;
+    margin-bottom: 32px;
+}
+
+#form-body{
+    border: 1px solid lightgray;
+    border-radius: 1.5rem;
+    padding: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+
+.error-message{
+    color:red;
+    letter-spacing: 2px;
+    display:none;
+}
+
+.form-button{
+    display:flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+#email{
+    border-left: 8px solid gray;
+}
+#password{
+    border-left: 8px solid gray;
+}
+
+.nav-bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding: 0.6rem;
+    box-shadow: 1px 2px 5px grey;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    padding-left: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 20px;
+    color: darkred;
+}
+
+#nav-icons-category{
+    display:flex;
+    align-items:center;
+    margin-right: 1.6rem;
+    justify-content: space-between;
+}
+
+#nav{
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+
+.bell-notification{
+    position:relative;
+    cursor: pointer;
+}
+
+.notification-count{
+    position:absolute;
+    top: -27%;
+    right: 42%;
+    background-color: red;
+    padding: 1px 4px;
+    border-radius: 23px;
+    font-size: 9px;
+    color: white;
+}
+
+.body-content{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid lightgray;
+    margin-top: 0.4rem;
+    min-height: 90vh;
+    box-shadow: 3px 3px 15px -2px lightgrey;
+    border-radius: 5px;
+}
+
+#pills{
+    margin-top: 40px;
+}
+
+.nav-item{
+    outline: none;
+    background-color: lightgray;
+}
+
+.nav-item a{
+    text-decoration: none;
+}
+
+.nav-item a:link{
+    color: white;
+}
+
+.status{
+    background-color:#05406D;
+}
+
+.nav-item:hover{
+    background-color: darkgray;
+}
+
+.nav-link{
+    color:white;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 5vh;
+    align-items: center;
+    margin-top: 0.2rem;
+    border-radius: 3px;
+}
+
+.graph-section{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px;
+    border-right: 1px solid lightgray;
+}
+
+.nav-section{
+    display: flex;
+    flex-basis: 30%;
+    justify-items: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#donut-graph{
+    display:flex;
+    justify-content: center;
+}
